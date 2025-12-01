@@ -1,14 +1,14 @@
 /* Global Styles */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
 body {
-  font-family: 'Roboto', sans-serif; /* Google Font */
-  background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradient background */
-  color: white;
+  font-family: 'Roboto', sans-serif; /* Google Font /
+  background: linear-gradient(to right, #6a11cb, #2575fc); / Gradient background /
+  color: white; / default body text /
 }
 
 a {
@@ -16,10 +16,10 @@ a {
   text-decoration: none;
 }
 
-/* Header Section */
+/ Header Section /
 .header {
   text-align: center;
-  background: linear-gradient(135deg, #3498db, #8e44ad); /* Gradient */
+  background: linear-gradient(135deg, #3498db, #8e44ad); / Gradient /
   padding: 40px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
@@ -42,7 +42,7 @@ a {
   margin-top: 10px;
 }
 
-/* Main Content Section */
+/ Main Content Section /
 .content {
   max-width: 1000px;
   margin: 60px auto;
@@ -50,6 +50,8 @@ a {
   background-color: #fff;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  color: #333; / <-- FIXED: dark text for readability /
 }
 
 section {
@@ -58,6 +60,8 @@ section {
   border-radius: 10px;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   padding: 20px;
+
+  color: #333; / <-- Optional, ensures text inside sections is readable /
 }
 
 h2 {
@@ -76,7 +80,7 @@ ul li {
   color: #7f8c8d;
 }
 
-/* Button */
+/ Button /
 .button {
   background-color: #3498db;
   color: white;
@@ -91,7 +95,7 @@ ul li {
   background-color: #8e44ad;
 }
 
-/* Footer Section */
+/ Footer Section */
 .footer {
   text-align: center;
   font-size: 0.9rem;
